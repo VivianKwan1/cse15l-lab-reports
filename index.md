@@ -4,8 +4,8 @@ test
 **owo**
 # heading :D
 ## heading but smaller :)
-[Link] (https://twitch.tv)
-![Image] (https://c.tenor.com/ifx89-6vO4EAAAAC/wooper-wooper-wednesday.gif)
+[Link](https://twitch.tv)
+![Image](https://c.tenor.com/ifx89-6vO4EAAAAC/wooper-wooper-wednesday.gif)
 > screaming crying
 * list
 * with
