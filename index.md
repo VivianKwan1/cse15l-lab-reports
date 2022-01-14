@@ -1,26 +1,6 @@
-test
+# CSE 15L Lab Reports
+[Lab Report 1 Week 2](https://viviankwan1.github.io/cse15l-lab-reports/lab-report-1-week-2)
 
-*feels like discord lmao*
-**owo**
-# heading :D
-## heading but smaller :)
-[Link](https://twitch.tv)
-![Image](https://c.tenor.com/ifx89-6vO4EAAAAC/wooper-wooper-wednesday.gif)
-> screaming crying
-
-* list
-* with
-* asterisks !
-
-1. list
-2. but it's
-3. numbers instead
-
---- 
-`inline code block !`
-```
-big code block
-```
-```yaml
-big code block w colors prayge
-```
+have good day and also this wooper :)\
+\
+![Image](https://media.discordapp.net/attachments/425873171431030786/863337286737330176/Wooper_Headbang_Transparent.gif)
