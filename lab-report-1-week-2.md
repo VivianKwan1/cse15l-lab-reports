@@ -41,6 +41,7 @@
 * `cat <file>`: prints the contents of the specified file
     ![Image](https://media.discordapp.net/attachments/487122748162834432/931702944133439539/ss6.PNG)
     * works with multiple files and will print them in order
+    
 ## Moving Files with `scp`
 ![Image](https://media.discordapp.net/attachments/487122748162834432/931702944347332718/ss7.PNG?width=1763&height=836)
 * `scp <file> <server>`: copies files and directories from the client to the remote computer
