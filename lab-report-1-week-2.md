@@ -20,18 +20,18 @@
         $ ssh cs15lwi22acy@ieng6.ucsd.edu
         ```
 * This is what I see upon connecting with `ssh`:
-![Image](./lr1im/ss3.png)
+![Image](https://cdn.discordapp.com/attachments/487122748162834432/931702943265202256/ss3.PNG)
 * I use Ctrl+d to disconnect from the remote computer
 
 ## Trying Some Commands
 * We also tried several commands on both local and remote computers
 * `cd`:
-    ![Image](./lr1im/ss5.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702943919534200/ss5.PNG)
     * `cd ~`: return to home directory
     * `cd ..`: go back one directory on the current path
     * `cd <directory name>`: go to specified directory
 * `ls`: lists files and directories in current directory
-    ![Image](./lr1im/ss4.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702943667847198/ss4.PNG)
     * `ls -l`: lists in longer format with additional information
     * `ls -a`: lists all files and directories, including hidden ones
     * `ls <directory>`: lists files and directories in specified directories
@@ -39,10 +39,10 @@
 * `cp <source file> <destination file>`: copies the source file into the destination file (overwrites or creates a new file)
     * `cp <file 1> <file 2> <file 3> <directory>`: copies all files into the specified directory with the same name (will overwrite existing files)
 * `cat <file>`: prints the contents of the specified file
-    ![Image](./lr1im/ss6.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702944133439539/ss6.PNG)
     * works with multiple files and will print them in order
 ## Moving Files with `scp`
-![Image](./lr1im/ss7.png)
+![Image](https://media.discordapp.net/attachments/487122748162834432/931702944347332718/ss7.PNG?width=1763&height=836)
 * `scp <file> <server>`: copies files and directories from the client to the remote computer
 * Also included in this screenshot is the result of running WhereAmI.java on the server, which printed information about the server rather than the client
 
@@ -58,13 +58,13 @@
     * Now we don't need a password to connect to the server!
     \
     \
-    ![Image](./lr1im/ss8.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702944615772210/ss8.PNG)
 
 
 ## Optimizing Remote Running
 * To make running commands on the server more efficient, we can use:
     * `ssh <server> <command>`: connects to the server, runs the command, then disconnects
-    ![Image](./lr1im/ss9.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702944859033630/ss9.PNG)
     * Note: `ssh <server> <command>; <command>` will run the first command on the server and the second on the client. To run multiple on the server, contain the commands in quotes: \
     `ssh <server> '<command>; <command>'`
-    ![Image](./lr1im/ss10.png)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/931702945215574096/ss10.PNG)
