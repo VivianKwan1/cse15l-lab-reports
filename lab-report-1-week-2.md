@@ -10,6 +10,7 @@
 
 ## Installing VSCode
 ![Image](./lr1im/ss2.png)
+* VSCode can be installed [here](https://code.visualstudio.com/download)
 * I already had VSCode installed and set up prior to this class, so no additional setup was needed
 
 ## Remotely Connecting
@@ -51,6 +52,8 @@
 * SSH keys help us connect to the remote computer more efficiently, as it removes the need to type a password each time
 * Steps to set up an SSH key:
     * `ssh-keygen`: generates a private and public key
+    * enter desired passphrase (or no passphrase)
+    ![Image](https://media.discordapp.net/attachments/487122748162834432/935287156048535562/ss11.PNG)
     * As I'm on Windows, I also needed to follow some [additional steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
     * Connect to the server (`ssh`)
     * `mkdir .ssh`: creates a directory named `.ssh`
@@ -69,3 +72,7 @@
     * Note: `ssh <server> <command>; <command>` will run the first command on the server and the second on the client. To run multiple on the server, contain the commands in quotes: \
     `ssh <server> '<command>; <command>'`
     ![Image](https://media.discordapp.net/attachments/487122748162834432/931702945215574096/ss10.PNG)
+    * Example: By using these commands, we can save time copying the WhereAmI.java file to the remote server, running it, and disconnecting:
+        * `scp WhereAmI.java <server>` `ssh <server>`  `javac WhereAmI.java` `java WhereAmI` `logout` 46 + 24 + 20 + 14 + 6 = 110 keystrokes
+        * `scp WhereAmI.java <server>` `ssh <server> 'javac WhereAmI.java; java WhereAmI'` 46 + 50 = 96 keystrokes
+    * Also, if we already had these commands in history, we could use the up arrow to access these commands, which would further increase the relative speed that we could execute these commands. For the first we would need to use the up arrow four times to get the line, for four lines (and enter four times), whereas for the second we would only have to use the up arrow twice for two lines and enter twice, going from 20 to 6 keystrokes.
