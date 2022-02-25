@@ -60,6 +60,7 @@ My `markdown-parse`
 ![Image](https://cdn.discordapp.com/attachments/487122748162834432/946582371921190963/unknown.png)
 
 Reviewed `markdown-parse` fails:
+
 ![Image](https://media.discordapp.net/attachments/487122748162834432/946584590447968356/unknown.png)
 
 This would be a more involved change, as we currently have a conditional checking for new lines, which prevents https://twitter.com and https://cse.ucsd.edu/ from being printed (correctly) and also allows another test to pass, but this means it's also not printing https://ucsd-cse15l-wi22.github.io/ like it should. We would need to incorporate more specific conditionals to make sure the other test passes while also not preventing all links with new lines.
