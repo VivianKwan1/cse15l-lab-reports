@@ -49,7 +49,8 @@ This may be a somewhere between a small (10 lines) fix and a more involved chang
 Expected output:
 
 ![Image](https://cdn.discordapp.com/attachments/487122748162834432/946572527994556426/unknown.png)
-Link printed should be "https://ucsd-cse15l-wi22.github.io/"
+Link printed should be "https://ucsd-cse15l-wi22.github.io/"\
+* Note: Preview in above screenshot shows https://twitter.com and https://cse.ucsd.edu/ as blue too because the link itself is valid, but on an actual site those links would not work properly, which is why they are not included in the expected outcome.
 
 Test:
 
