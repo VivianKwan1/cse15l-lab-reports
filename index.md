@@ -7,6 +7,8 @@
 
 [Lab Report 4 Week 8](https://viviankwan1.github.io/cse15l-lab-reports/lab-report-4-week-8)
 
+[Lab Report 5 Week 10](https://viviankwan1.github.io/cse15l-lab-reports/lab-report-5-week-10)
+
 have good day and also this wooper :)\
 \
 ![Image](https://media.discordapp.net/attachments/425873171431030786/863337286737330176/Wooper_Headbang_Transparent.gif)

@@ -7,7 +7,7 @@
 [My repository](https://github.com/VivianKwan1/markdown-parse)
 
 [Reviewed repository](https://github.com/merrickqiu/markdown-parse)
-### Snippet 1
+## Snippet 1
 Expected output:
 
 ![Image](https://cdn.discordapp.com/attachments/487122748162834432/946567095246802955/unknown.png)
@@ -26,7 +26,7 @@ Reviewed `markdown-parse` fails:
 ![Image](https://media.discordapp.net/attachments/487122748162834432/946584504519245844/unknown.png?width=705&height=105)
 
 This may be a more involved change, as there are multiple issues here. First, our code does not consider the fact that there may be a bracket in the link text, which is why it does not properly register ucsd.edu as a link. We would likely need another conditional to check for more close brackets beyond the first. Second, our code does not consider code snippets at all, which is why it sees url.com as a link. We would likely need more conditionals and potentially variables for the code snippets to make this fix.
-### Snippet 2
+## Snippet 2
 Expected output:
 
 ![Image](https://media.discordapp.net/attachments/487122748162834432/946568826198323271/unknown.png?width=705&height=144)
@@ -45,7 +45,7 @@ Reviewed `markdown-parse` fails:
 ![Image](https://media.discordapp.net/attachments/487122748162834432/946584546848161792/unknown.png)
 
 This may be a somewhere between a small (10 lines) fix and a more involved change, as there are multiple issues here but they are a bit simpler. Once again, our code does not consider the fact that there may be a bracket in the link text, which is why it does not properly register example.com as a link. We would likely need another conditional to check for more close brackets beyond the first. Second, our code does not consider that there may be a close parentheses within the link, so it cuts the link off at the first close parentheses and returns a.com(( and not a.com(()). We would likely need more conditionals for the code snippets to make this fix.
-### Snippet 3
+## Snippet 3
 Expected output:
 
 ![Image](https://cdn.discordapp.com/attachments/487122748162834432/946572527994556426/unknown.png)
